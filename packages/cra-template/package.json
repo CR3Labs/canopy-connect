@@ -1,0 +1,30 @@
+{
+  "name": "cra-template-canopy-connect",
+  "version": "0.0.1",
+  "author": "Family",
+  "homepage": "https://docs.family.co/canopy-connect",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "typescript",
+    "canopy-connect"
+  ],
+  "description": "CanopyConnect + TypeScript template for Create React App.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/family/canopy-connect.git",
+    "directory": "packages/cra-template"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "bugs": {
+    "url": "https://github.com/family/canopy-connect/issues"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
+}

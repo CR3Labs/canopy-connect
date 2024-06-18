@@ -1,0 +1,52 @@
+{
+  "name": "canopy-connect-next-siwe",
+  "version": "0.0.1",
+  "license": "BSD-2-Clause license",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solidity-io/canopy-wallet-connect.git",
+    "directory": "packages/canopy-connect-next-siwe"
+  },
+  "type": "module",
+  "exports": "./build/index.es.js",
+  "types": "./build/index.d.ts",
+  "engines": {
+    "node": ">=12.4"
+  },
+  "files": [
+    "build",
+    "README.md"
+  ],
+  "scripts": {
+    "start": "rollup --config rollup.config.dev.js -w",
+    "dev": "rollup --config rollup.config.dev.js -w",
+    "build": "rollup --config rollup.config.prod.js",
+    "lint": "eslint src --ext .ts"
+  },
+  "keywords": [
+    "ens",
+    "react-hook",
+    "blockchain",
+    "hooks",
+    "ethereum",
+    "react",
+    "solidityio"
+  ],
+  "dependencies": {
+    "iron-session": "^6.2.1",
+    "siwe": "^2.1.4"
+  },
+  "peerDependencies": {
+    "canopy-connect": ">=1.2.0",
+    "next": ">=12.x",
+    "react": "17.x || 18.x",
+    "react-dom": "17.x || 18.x",
+    "siwe": ">=2"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.27",
+    "@types/react": "^18.0.6",
+    "@types/react-dom": "^18.0.2",
+    "typescript": "^4.9.5"
+  }
+}
